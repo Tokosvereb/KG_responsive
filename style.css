@@ -1,0 +1,19 @@
+main {
+  max-width: 1200px;
+  border: 10px;
+  margin: 10px;
+}
+.nav {
+  background-color: grey;
+}
+section {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+}
+
+@media screen and{ (max-width: 600px;)
+  body {
+    width: 100%;
+
+  }
+}
